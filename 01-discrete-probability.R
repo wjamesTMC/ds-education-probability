@@ -184,7 +184,9 @@ prop.table(table(events))
 # Democrat, 44% Republican, 10% undecided and 2% Green Party, these proportions
 # define the probability for each group. The probability distribution is:
 
-Pr(picking a Republican)=0.44Pr(picking a Democrat)=0.44Pr(picking an undecided)=0.10Pr(picking a Green)=0.02Pr(picking a Republican)=0.44Pr(picking a Democrat)=0.44Pr(picking an undecided)=0.10Pr(picking a Green)=0.02
+# Pr(picking a Republican)=0.44Pr(picking a Democrat)=0.44Pr(picking an
+# undecided)=0.10Pr(picking a Green)=0.02Pr(picking a Republican)=0.44Pr(picking
+# a Democrat)=0.44Pr(picking an undecided)=0.10Pr(picking a Green)=0.02
 
 # 26.6 Independence
 

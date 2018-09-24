@@ -134,7 +134,7 @@ S <- replicate(B, roulette_winnings(n))
 # So now we can ask the following: in our simulations, how often did we get sums
 # less than or equal toa?
 
-mean(S <= a)
+# mean(S <= a)
 
 # This will be a very good approximation of F(a)F(a). In fact, we can visualize
 # the distribution by creating a histogram showing the probability
@@ -538,6 +538,7 @@ s-sd(x)*sqrt((N-1)/N)
 # deviation as defined:
 
 sqrt(mean((x-m)^2))
+# [1] 4.076674
 
 # So be careful when using the sd function in R. However, keep in mind that
 # throughout the book we sometimes use the sd function when we really want the
