@@ -121,9 +121,11 @@ sqrt(n)*abs(loss_per_foreclosure)*sqrt(p*(1-p))
 
 qnorm(0.01)
 #> [1] -2.33
-for the equation to hold true. Remember that z=z=qnorm(0.01) gives us the 
+
+# for the equation to hold true. Remember that z=z=qnorm(0.01) gives us the
 # value of zz for which:
-Pr(Z≤z)=0.01Pr(Z≤z)=0.01
+
+# Pr(Z≤z)=0.01Pr(Z≤z)=0.01
 
 # So this means that right side of the complicated equation must be
 # zz=qnorm(0.01).
@@ -225,6 +227,7 @@ n*(loss_per_foreclosure*p + x * (1-p))
 #> [1] 14184320
 
 # dollars! We can confirm this with a Monte Carlo simulation:
+
 p <- 0.04
 x <- 0.05*180000
 profit <- replicate(B, {
